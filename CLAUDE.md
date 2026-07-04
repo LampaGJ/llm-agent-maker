@@ -18,6 +18,21 @@ This repo is a birthplace, not a permanent home. Agents gestate here; their grow
 
 The *machinery* (`/birth`, `/recruit`, `/rebirth`, `/forming`, `/consult`) lives as **user-level** skills/commands in `~/.claude/` — see "Commands" below. This repo supplies the framework docs those commands read, the birthing workspace they write to, and the recruitment gate they must honor.
 
+### Repository topology — two remotes, two roles
+
+- `origin` → **github.com/LampaGJ/llm-agent-maker-archive** (PRIVATE). Full development history — the durable archive the nursery model depends on. All day-to-day work, branches, and graduation commits go here.
+- `public` → **github.com/LampaGJ/llm-agent-maker** (PUBLIC, MIT). Fresh-history snapshots only. Its `main` descends from the local orphan branch `public-main`, which shares **no history** with `master`.
+
+**Never push `master` (or any archive branch) to `public`.** That would publish the entire private history, including business-specific gestation artifacts. To publish an update, snapshot the current tree onto the orphan branch:
+
+```bash
+git checkout public-main
+git checkout master -- .
+git commit -m "Publish: <what changed>"
+git push public public-main:main
+git checkout master
+```
+
 ## Architecture
 
 ### Core Components

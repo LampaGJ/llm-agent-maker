@@ -6,7 +6,7 @@ An **agent nursery** for [Claude Code](https://claude.com/claude-code): speciali
 
 This repo is a birthplace, not a permanent home.
 
-- **Gestation is git-tracked.** Every iteration of an agent-in-progress lands in git history. Git — not the working tree — is the durable archive; an empty `agents/` floor is the healthy steady state.
+- **Gestation is git-tracked.** Every iteration of an agent-in-progress lands in git history. Git — not the working tree — is the durable archive; an empty `agents/` floor is the healthy steady state. (This public repo is a fresh-history snapshot: development history predating the initial public release lives in a private archive repository.)
 - **The grown self lives at user level.** A finished agent is promoted to `~/.claude/agents/agent-[name].md`, and its bundled skills are flattened to `~/.claude/skills/`. On any conflict, the promoted copy wins.
 - **Recruitment is gated.** `./recruit.sh` refuses to promote an agent until its registry metadata (`agents-metadata/agent-[name].json`) validates against [`.claude/METADATA_SCHEMA.md`](.claude/METADATA_SCHEMA.md) via `scripts/validate-metadata.mjs`.
 - **Graduates are discarded from the tree.** After promotion, the nursery copies are `git rm`'d; the lineage lives in history.
@@ -24,3 +24,7 @@ Templates follow one of two archetype schemas — a recruiting brief for consult
 - `.claude/` — framework docs and the pipeline agents (`agent-llm-recruiter`, `agent-llm-critic`, `agent-llm-validator`, …)
 - `.birth-working/` — transient per-birth working data (cleared on graduation)
 - `recruit.sh` + `scripts/validate-metadata.mjs` — the gated promotion path
+
+## License
+
+[MIT](LICENSE)
