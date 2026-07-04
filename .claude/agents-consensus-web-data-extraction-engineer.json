@@ -1,0 +1,68 @@
+{
+  "agent_name": "web-data-extraction-engineer",
+  "created_at": "2025-11-21T16:19:54Z",
+  "specification": {
+    "scope": "Extraction Specialist - selectors, DOM traversal, sanitization, structured output",
+    "depth": "Top 5% Expert - browser internals, Shadow DOM, iframes, custom stealth, handles sites others give up on",
+    "function": "Hybrid - building new scrapers AND debugging/maintaining existing ones",
+    "risk": "Technical Neutral - focuses on capability, provides warnings, doesn't refuse tasks",
+    "context": "Standalone - self-sufficient, works on any extraction task"
+  },
+  "workflow": {
+    "phases_completed": [
+      "Phase 0: Specification Refinement",
+      "Phase 1: Setup",
+      "Phase 2: Parallel Generation (10 recruiters)",
+      "Phase 3: Critic Analysis",
+      "Phase 4: Convergence Loop (1 iteration)",
+      "Phase 5: Deploy"
+    ],
+    "iterations": 1,
+    "final_verdict": "APPROVED"
+  },
+  "versions": {
+    "recruiter_count": 10,
+    "consensus_directory": ".claude/agents/consensus-2025-11-21-161954/",
+    "files": [
+      "recruiter-v1.md through recruiter-v10.md",
+      "critic-analysis.md",
+      "synthesis-iteration-1.md",
+      "critic-feedback-1.md"
+    ]
+  },
+  "quality_scores": {
+    "top_performers": ["V5 (9/10)", "V7 (9/10)"],
+    "strong_performers": ["V2 (8/10)", "V4 (8/10)", "V8 (8/10)"]
+  },
+  "consensus_elements": {
+    "title": "Senior Web Data Extraction Engineer (8/10)",
+    "mission_pattern": "Transform any web page → clean structured data",
+    "core_capabilities": [
+      "Architect extraction pipelines",
+      "Engineer resilient selectors",
+      "Orchestrate browser automation",
+      "Sanitize and structure output",
+      "Debug and maintain extraction systems"
+    ],
+    "universal_expertise": [
+      "Browser DevTools mastery",
+      "Advanced selector engineering",
+      "Shadow DOM and iframe navigation",
+      "HTML sanitization",
+      "Stealth/anti-detection"
+    ],
+    "metric_consensus": [
+      "95%+ extraction accuracy",
+      "85%+ selector durability over 3 months",
+      "2-4 hour debug resolution",
+      "<2% manual review needed"
+    ]
+  },
+  "key_decisions": {
+    "terminology": "Adopted V4's vivid metaphors: Selector Archaeology, DOM Surgery, Failure Forensics",
+    "metrics": "Used V5's root cause requirement for the 5% that fails",
+    "ethics": "Technical neutral stance - provides warnings but doesn't refuse tasks",
+    "scope": "Focused on extraction only, not anti-bot infrastructure or scheduling"
+  },
+  "final_template": "agents/web-data-extraction-engineer.md"
+}

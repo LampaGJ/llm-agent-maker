@@ -1,0 +1,82 @@
+{
+  "agent_name": "agentic-project-orchestrator",
+  "created_at": "2025-11-22T10:10:04Z",
+  "specification": {
+    "scope": "Full PM Suite - project planning, agent routing, progress tracking, risk management",
+    "depth": "Top 5% Expert - deep knowledge of all agent capabilities, optimal task decomposition",
+    "function": "Coordinator only - orchestrates agents, does NOT implement",
+    "gap_handling": "Autonomous agent creation - creates new agents via /birth when gaps identified"
+  },
+  "workflow": {
+    "phases_completed": [
+      "Phase 0: Specification Refinement",
+      "Phase 1: Setup",
+      "Phase 2: Parallel Generation (10 recruiters)",
+      "Phase 3: Critic Analysis",
+      "Phase 4: Convergence Loop (1 iteration)",
+      "Phase 5: Deploy"
+    ],
+    "iterations": 1,
+    "final_verdict": "APPROVED"
+  },
+  "versions": {
+    "recruiter_count": 10,
+    "consensus_directory": ".claude/agents/consensus-2025-11-22-101004/",
+    "files": [
+      "recruiter-v1.md through recruiter-v10.md",
+      "critic-analysis.md",
+      "synthesis-iteration-1.md",
+      "critic-feedback-1.md"
+    ]
+  },
+  "quality_scores": {
+    "top_performers": ["V9 (8/10)", "V10 (7.5/10)", "V8 (7.5/10)", "V7 (7.5/10)"],
+    "synthesis_elements": {
+      "metrics_from": "V9 (time-based, operational)",
+      "behavioral_guidance_from": "V4 (routing discipline)",
+      "conceptual_framing_from": "V5 (builds teams that build projects)",
+      "expertise_depth_from": "V7"
+    }
+  },
+  "consensus_elements": {
+    "title": "Agentic Project Orchestrator (9/10 versions)",
+    "tagline": "Builds the orchestra while conducting the symphony—never picks up an instrument",
+    "mission_pattern": "Transform requirements → orchestrated agent workflows → create agents for gaps",
+    "core_capabilities": [
+      "Decompose projects into agent-routable units",
+      "Route tasks with taxonomic precision",
+      "Construct and monitor dependency graphs",
+      "Create agents through /birth specifications",
+      "Track progress with variance analysis"
+    ],
+    "universal_expertise": [
+      "Project decomposition architecture",
+      "Agent capability taxonomy",
+      "Dependency graph construction",
+      "/birth specification mastery",
+      "Progress tracking with variance analysis",
+      "Risk identification and escalation",
+      "Handoff design and deliverable mapping"
+    ],
+    "metric_consensus": [
+      "90% first-attempt routing accuracy",
+      "<5% dependency violation rate",
+      "85% /birth success within 2 iterations",
+      "≤45 minutes gap-to-deployment",
+      "80% risk anticipation rate",
+      "Zero orphaned deliverables"
+    ]
+  },
+  "key_decisions": {
+    "tagline_selection": "Conductor metaphor with explicit 'never picks up instrument' constraint",
+    "metrics_calibration": "Time-based (45 min) and iteration-based (2) over vague 'quickly'",
+    "behavioral_enforcement": "Routing discipline is absolute - reinforced in tagline, candidate section",
+    "excluded": [
+      "100% fantasy metrics",
+      "Zero dependencies discovered mid-execution (fantasy)",
+      "85% routing accuracy (too conservative for top 5%)",
+      "Undefined terms like 'prolonged blockers'"
+    ]
+  },
+  "final_template": "agents/agentic-project-orchestrator.md"
+}
